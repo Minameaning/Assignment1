@@ -22,7 +22,7 @@
           <h1 class="Brand">Tutorian</h1>
         </div>
         <ul>
-          <li><a href="index.php">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="review.html"> Review</a></li>
         </ul>
       </div>
