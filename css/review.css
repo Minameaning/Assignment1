@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+
+.navbar {
+    margin: 10px auto;
+    border-bottom: 1px solid black;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Macondo', cursive;
+    font-family: 'Source Code Pro', monospace;
+    background-image: url('../image/tutor.svg');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Tlogo {
+    height: 4rem;
+    width: auto;
+    position: absolute;
+}
+
+.Brand {
+    font-size: 20px;
+    position: relative;
+    left: 80%;
+}
+
+header {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: darkorange 1px 1px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: rgb(33, 23, 23);
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 1.5rem;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.navbar li a:hover {
+    color: whitesmoke;
+    background-color: rgb(48, 46, 46);
+    border-radius: 3px;
+}
+
+h2 {
+    text-decoration: underline;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+#tutor-info {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tutor-info td,
+#tutor-info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tutor-info tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tutor-info tr:hover {
+    background-color: #ddd;
+}
+
+#tutor-info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #252725;
+    color: white;
+}
+
+#tutor-info {
+    overflow-x: auto; 
+}
+@media screen and (max-width: 900px) {
+    #tutor-info table {
+        width: 100%;
+    }
+}
+div.info {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
+div.info-box {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+h5 {
+    padding: 1px;
+    margin: 1%;
+}
+
+.f-address {
+    justify-content:left;
+    align-items: center;
+}
+
+.footer-copyright {
+    text-align: center;
+}
